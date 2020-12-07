@@ -25,7 +25,7 @@
      
 > Or install from github master
 
-     cordova plugin add https://github.com/@castana/cordova-plugin-ios-xhr
+     cordova plugin add https://github.com/@castana-solutions/cordova-plugin-ios-xhr
      
 ### Uninstall
 
@@ -46,3 +46,5 @@
 >Since the application's starting page is loaded from the device's file system, all XHR requests to remote endpoints are considered cross origin. For such requests, WKWebView specifies "null" as the value of the Origin header, which will be rejected by endpoints that are configured to disallow requests from the null origin. This plugin works around that issue by handling all remote requests at the native layer where the origin header will be excluded
 
 >Fixes local file access via XHR with WKWebView
+
+>Override timeout for native XHR, using timeout from jQuery ($.ajaxSettings.timeout)
