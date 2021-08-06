@@ -1,9 +1,9 @@
 {
-  "name": "@castana/cordova-plugin-ios-xhr",
+  "name": "IosXhr",
   "version": "1.0.3",
   "description": "Cordova iOS 6+ File XHR Plugin",
   "cordova": {
-    "id": "@castana/cordova-plugin-ios-xhr",
+    "id": "IosXhr",
     "platforms": [
       "ios"
     ]
